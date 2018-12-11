@@ -149,12 +149,6 @@ LWin & 6::switchDesktopByNumber(6)
 LWin & 7::switchDesktopByNumber(7)
 LWin & 8::switchDesktopByNumber(8)
 LWin & 9::switchDesktopByNumber(9)
-LWin & n::switchDesktopByNumber(CurrentDesktop + 1)
-LWin & p::switchDesktopByNumber(CurrentDesktop - 1)
-LWin & s::switchDesktopByNumber(CurrentDesktop + 1)
-LWin & a::switchDesktopByNumber(CurrentDesktop - 1)
-LWin & c::createVirtualDesktop()
-LWin & d::deleteVirtualDesktop()
 
 ; Alternate keys for this config. Adding these because DragonFly (python) doesn't send CapsLock correctly.
 ^!1::switchDesktopByNumber(1)
